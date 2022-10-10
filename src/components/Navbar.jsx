@@ -23,7 +23,7 @@ const Navbar = () => {
           <Link
             to="/"
             aria-label="Company"
-            title="Company"
+            
             className="inline-flex items-center"
           >
             
@@ -40,7 +40,7 @@ const Navbar = () => {
                     isActive ? activeStyle : undefined
                  }
                 aria-label="Our product"
-                title="Our product"
+               
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Home
@@ -53,7 +53,7 @@ const Navbar = () => {
               isActive ? activeStyle : undefined
             }
                 aria-label="Our product"
-                title="Our product"
+                
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Topics
@@ -66,7 +66,7 @@ const Navbar = () => {
               isActive ? activeStyle : undefined
             }
                 aria-label="Product pricing"
-                title="Product pricing"
+              
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Statistics
@@ -79,7 +79,7 @@ const Navbar = () => {
               isActive ? activeStyle : undefined
             }
                 aria-label="About us"
-                title="About us"
+               
                 className="font-medium tracking-wide text-gray-100 transition-colors duration-200 hover:text-teal-accent-400"
               >
                 Blog
@@ -117,7 +117,7 @@ const Navbar = () => {
                       <Link
                         to="/"
                         aria-label="Company"
-                        title="Company"
+                  
                         className="inline-flex items-center"
                       >
                       
@@ -152,7 +152,7 @@ const Navbar = () => {
                            isActive ? activeStyle : undefined
                            }
                           aria-label="Our product"
-                          title="Our product"
+                         
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Home
@@ -165,7 +165,7 @@ const Navbar = () => {
               isActive ? activeStyle : undefined
             }
                           aria-label="Our product"
-                          title="Our product"
+                      
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Topics
@@ -178,7 +178,7 @@ const Navbar = () => {
                           isActive ? activeStyle : undefined
                         }
                           aria-label="Product pricing"
-                          title="Product pricing"
+                    
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Statistics
@@ -191,7 +191,7 @@ const Navbar = () => {
                             isActive ? activeStyle : undefined
                           }
                           aria-label="About us"
-                          title="About us"
+                      
                           className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                         >
                           Blog
