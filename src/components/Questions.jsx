@@ -9,7 +9,7 @@ const Questions = ({ questionAll }) => {
     const { question, options ,id, correctAnswer } = questionAll;
     // console.log(questionAll);
     const [ans, setAns] = useState([])
-    // const [right, setRight]
+
    
     const selectOption=(option)=>{
         if(option===correctAnswer){
@@ -19,7 +19,7 @@ const Questions = ({ questionAll }) => {
         else{
             swal("Wrong Answer!", "You clicked the button!", "warning");
         }
-        // console.log(option);
+            
     }
     
     const ansEye =(correctAnswer)=>{
@@ -39,7 +39,7 @@ const Questions = ({ questionAll }) => {
                  <p>{ans}</p>
            </div>
             <div >
-                <h2 className="mb-12 leading-none text-center text-3xl">Question: {question} </h2>
+                <h2 className="mb-12 leading-none text-center text-3xl">Quiz: {question} </h2>
                 
                 <div className="grid gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
                     <div className='flex items-center'>

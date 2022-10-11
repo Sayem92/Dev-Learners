@@ -49,10 +49,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 💚💚 Dev Learners💚💚
 
 ## Code Link
-[Source Code](https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Sayem92).
+[https://github.com/programming-hero-web-course2/b6-quiz-crackerz-Sayem92]
 
 ## Live Site 
-[Live Site]()
+[https://dev-learners-quiz-practice.netlify.app/]
 
 ## key features
 ✔ Daily quiz for learners.
