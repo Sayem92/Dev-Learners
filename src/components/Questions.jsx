@@ -24,7 +24,7 @@ const Questions = ({ questionAll }) => {
     
     const ansEye =(correctAnswer)=>{
         setAns(correctAnswer)
-        // console.log(correctAnswer);
+       
         }
 
        
