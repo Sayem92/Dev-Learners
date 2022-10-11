@@ -1,6 +1,13 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Dependency used in this project
+1. [tailwind css library](https://tailwindcss.com/docs/installation).
+2. [Mamba UI](https://www.mambaui.com/components).
+3. [Kitwind  Kometa UI](https://kitwind.io/products/kometa/components/).
+4. [Create React App](https://github.com/facebook/create-react-app).
+5. [React Router Dom](https://reactrouter.com/en/main).
+6. [ReChart](https://recharts.org/en-US/).
+7. [Sweet Alert](https://sweetalert.js.org/guides/).
+8. [font Awesome](https://fontawesome.com/v5/docs/web/use-with/react).
+9. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
