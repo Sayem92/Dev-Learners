@@ -1,24 +1,24 @@
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { useLoaderData } from 'react-router-dom';
+import Item from './Item';
 
-const Topics = ({quizTopics}) => {
-    const {logo, name, total, id} = quizTopics;
+const Topics = () => {
+    const quizData = useLoaderData().data;
+    // console.log(quizData);
     return (
-        <div>
-            <div className="max-w-xs rounded-md shadow-md bg-gray-900 text-gray-100">
-                <img src={logo} alt="" className="object-cover object-center w-full rounded-t-md h-72 bg-gray-500" />
-                <div className="flex flex-col justify-between p-6 space-y-8">
-                    <div className="space-y-2">
-                        <h2 className="text-3xl font-semibold tracking-wide">{name}</h2>
-                        <p className="text-gray-100">Quiz: {total}</p>
-                    </div>
-                    <Link to={`/quiz/${id}`}  type="button" className="flex items-center justify-center w-full p-3 font-semibold tracking-wide rounded-md bg-sky-500 text-gray-900 hover:bg-blue-600">Quiz Start <FontAwesomeIcon className='pl-2' icon={faArrowRight}></FontAwesomeIcon>
-                    </Link>
-                </div>
+
+
+        <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+            <div className="grid gap-5 mx-auto sm:grid-cols-1 lg:grid-cols-2 lg:max-w-screen-lg">
+                {
+                    quizData.map(quizTopics => <Item
+                        key={quizTopics.id}
+                        quizTopics={quizTopics}
+                    ></Item>)
+                }
             </div>
         </div>
+
     );
 };
 

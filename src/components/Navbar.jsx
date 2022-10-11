@@ -29,7 +29,7 @@ const Navbar = () => {
             
             <img src={logo} className="w-10" alt="" />
             <span className="ml-2 text-xl font-bold tracking-wide text-gray-100 uppercase">
-              Read and Checker
+              Dev Learners
             </span>
           </Link>
           <ul className="flex items-center hidden space-x-8 lg:flex">
@@ -123,7 +123,7 @@ const Navbar = () => {
                       
                         <img src={logo} className="w-10" alt="" />
                         <span className="ml-2 text-xl font-bold tracking-wide text-gray-800 uppercase">
-                          Read and Checker
+                          Dev Learners
                         </span>
                       </Link>
                     </div>
